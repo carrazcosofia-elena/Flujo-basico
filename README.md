@@ -25,3 +25,88 @@ es una manera de crear o mejor dicho administras los datos
 9._¿Qué significa SQL en el contexto de base datos relacionales?significa que es lenguaje de consulta estructurado
 
 10._¿Cuáles son los elementos de un sistema de información basado en base de datos relacionales? el motor de base de datos, las columnas, el lenguaje SQLite, el base de datos e interfaces de usuario
+
+
+## investigacion 
+
+## clases vs objetos
+
+
+ class celular:
+     def __init__(self, marca, modelo, bateria):
+         self.marca = marca
+         self.bateria = bateria 
+         self.modelo = modelo
+     def Llamar(self):
+      print("Sonando")
+
+      def cargador(self):
+       self.bateria = 100
+
+       def apagar(self):
+       print("Apagado")
+
+mi_tel = celular("Samsung", "galaxy09", 70)
+
+
+## Metodo
+
+
+ class Usuario:
+     def __init__(self, nombre):
+        self.nombre = nombre
+
+u = Usuario("Carlos")
+print(u.nombre)
+
+## Parametro self
+
+
+ class Cuenta: 
+   def __init__(self, usuario):
+   self.dueño = usuario
+
+def mostrar(self):
+ print("Cuenta de", self.usuario)
+
+
+## encapsulamiento
+
+  class Cajas:
+    def __init__(self):
+         self.__clave = 1235
+
+     def verifica(self, c)
+      return c == self.clave 
+
+
+## Herencia
+ "Super clase"
+ class Transporte:
+   def manejar(self):
+      print("Manejando")
+ "subclase"
+class bicicleta:
+    pass
+
+class bocho:
+    pass
+
+## Composicion
+
+ class teclado:
+  def escribir(self):
+   print("Escribir")
+
+class laptop:
+ def __init__(self):
+ self.teclado = teclado()
+
+## Estado 
+ class cuentaBVV:
+  def __init__(self)
+   self.sald = 0
+
+
+def deposito(self, mone):
+ self.sald += mone
